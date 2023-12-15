@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BEM</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Josue Veliz">
+        <script src="../index.js" defer></script>
+        <link rel="stylesheet" href="bem.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body class="body">
+        <main>
+            <div class="login">
+                <div class="login-form login-form--bg">
+                  <form class="login-form--none">
+                    <input class="login-form__input" type="text" placeholder="name"/>
+                    <input class="login-form__input" type="password" placeholder="password"/>
+                    <input class="login-form__input" type="text" placeholder="email address"/>
+                    <button class="login-form__btn login-form__btn--blue">create</button>
+                    <p class="login-form__msg">Already registered? <a class="login-form__msg--link" href="#">Sign In</a></p>
+                  </form>
+                  <form>
+                    <input class="login-form__input" type="text" placeholder="username"/>
+                    <input class="login-form__input" type="password" placeholder="password"/>
+                    <button class="login-form__btn login-form__btn--green">login</button>
+                    <p class="login-form__msg">Not registered? <a class="login-form__msg--link" href="#">Create an account</a></p>
+                  </form>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
